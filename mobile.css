@@ -1,0 +1,194 @@
+@media only screen and (max-width:780px){   
+
+    .main-h2{
+        font-size: 2.5rem;
+    }
+
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .flex{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        /* justify-content: space-evenly; */
+    }
+
+    nav .logo h1{
+        font-size: 1.4rem;
+    }
+
+    header{
+        height: 600px;
+    }
+
+    .header-section{
+        height: 600px;
+    }
+
+    header img{
+        width: 100%;
+        height: 600px;
+    }
+
+    .bannercontent .bannercontent{
+        margin-top: 130px;
+    max-width: 400px;
+    }
+
+    .bannercontent h1{
+        font-size: 1.7rem;
+        padding: 0px 8px;
+    }
+    
+
+    .bannercontent p{
+        font-size: 1rem;
+        padding: 0px 10px;
+        font-weight: 300;
+    }
+
+    .bannercontent .btns button{
+        padding: 0.7rem 2rem;
+        font-size: 0.9rem;
+    }
+
+    .banner .bannercontent .follow-icons span{
+        font-size: 1rem;
+    }
+
+    .banner .bannercontent .follow-icons a{
+        margin-right: 0.3;
+    }
+
+    .banner .bannercontent .follow-icons a i{
+        padding: 0.6rem 0.6rem;
+    }
+
+
+    /* ========  About Css ======== */
+
+    .about-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .about-icons{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .about-icons div button{
+        width: 50%;
+        padding: 0.8rem 1rem;
+        margin: auto;
+    }
+
+    .about-icons>div{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .services-box{
+        grid-template-columns: 1fr;
+    }
+
+    .feature-list{
+        grid-template-columns: 1fr;
+    }
+
+
+    .lending-money .first-box,.lending-money .second-box{
+        width: 100%;
+    }
+
+    .question-list .question-box,.team-box,.second-box .investment-content{
+        width: 100%;
+    }
+
+    .team-box .flex{
+        justify-content: space-evenly;
+    }
+
+    .footer-content div:nth-child(1) button
+    {
+        margin: auto;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .footer-content>div{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen  and (max-width:900px){
+    
+header nav .rightnav{
+    width: 100%;
+position: absolute;
+top: 100px;
+left: 0;
+background: white;
+color: black;
+z-index: 1;
+display: none;
+}
+
+.animOut{    
+animation: animationOut 2s 1;
+transition: all 2s ease;
+height: 380px;
+overflow: hidden;
+}
+
+@keyframes animationOut {
+    0%{
+        height: 0%;
+        /* width: 0; */
+        /* color: red; */
+    }
+
+    100%{
+        height: 380px;
+        /* width: 100%; */
+        /* color: purple; */
+    }
+}
+
+
+header nav .rightnav ul{
+    flex-direction: column;
+gap: 30px;
+text-align: center;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+
+header nav .rightnav ul li a{
+    color: var(--black-color);
+}
+
+nav .menu{
+    display: block;
+}
+
+   
+header nav .active{
+    display: block;
+}
+
+
+}
