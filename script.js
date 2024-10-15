@@ -69,6 +69,20 @@ question.forEach((item,index)=>{
 })
 
 
+document.querySelectorAll('.rightnav ul li a').forEach(anchor=>{
+
+    anchor.addEventListener('click',(e)=>{
+        e.preventDefault();
+        const target =  document.querySelector(anchor.getAttribute('href'));
+        target.scrollIntoView({
+            behavior : 'smooth',
+            block : 'start'
+        })
+    })
+    
+
+})
+
 
 
 // 1. git clone "repo url"
